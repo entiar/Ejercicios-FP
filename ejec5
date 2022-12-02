@@ -1,0 +1,12 @@
+def estacion(num):
+    tiempo = {
+        1:'verano',
+        2:'invierno',
+        3:'otoño',
+        4:'primavera',
+    }
+    return tiempo.get(num, 'Este no es un numero valido')
+numero = int(input("Ingrese un número: "))
+
+print('Estamos en: ', estacion(numero))
+    
