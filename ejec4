@@ -1,0 +1,5 @@
+numeroFor = 0
+for numerofor in range(3):
+    if(numeroFor<=3):
+        numeroFor += 1
+        print(numeroFor)
