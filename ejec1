@@ -1,0 +1,8 @@
+numeroif = int(input("Ingrese un número: "))
+
+if numeroif>0:
+    print("El número es positivo")
+elif numeroif<0:
+    print("El número es negativo")
+else:
+    print("El número es 0")
